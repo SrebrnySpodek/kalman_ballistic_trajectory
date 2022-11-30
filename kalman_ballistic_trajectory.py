@@ -118,9 +118,9 @@ def start():
             ,color = 'g', fmt = 'o', markersize = 10, label = "measurment state", alpha = 0.5)
     pylab.plot(parameters.time_space,hidden_value_y,'bo', markersize = 5, label = "hidden state")
 
-    pylab.xlabel("time", fontsize = 20)
-    pylab.ylabel("height", fontsize = 20)
-    pylab.legend()
+    pylab.xlabel("time", fontsize = 40)
+    pylab.ylabel("height", fontsize = 40)
+    pylab.legend(fontsize = 30)
     pylab.show()
 
 
